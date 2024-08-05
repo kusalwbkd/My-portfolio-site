@@ -1,8 +1,8 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaNodeJs, } from 'react-icons/fa';
 import { DiMongodb } from "react-icons/di";
-import { SiExpress } from "react-icons/si";
-import { TbBrandReactNative } from "react-icons/tb";
+import { SiExpress, SiTypescript } from "react-icons/si";
+import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
 import { DiNodejs } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 export const links = [
@@ -50,6 +50,18 @@ export const skills = [
     icon: <SiExpress className='h-16 w-16 text-cyan-500' />,
     text: 'Proficient in Express.js, simplifying API development, routing, and server-side logic with elegance and precision..',
   },
+  {
+    id: nanoid(),
+    title: 'Next.js',
+    icon: <TbBrandNextjs className='h-16 w-16 text-cyan-500' />,
+    text: 'Proficient in Next.js, I specialize in building server-rendered React applications. With Next.js, I seamlessly combine client-side and server-side rendering, optimizing performance and SEO. My focus lies in creating modular, scalable components for efficient front-end development'
+  },
+  {
+    id: nanoid(),
+    title: 'TypeScript',
+    icon: <SiTypescript className='h-16 w-16 text-cyan-500' />,
+    text: 'Proficient in TypeScript, I excel at building robust and type-safe applications. Leveraging TypeScript’s static type checking.',
+  },
   
 ];
 
@@ -63,7 +75,7 @@ export const projects = [
     title: 'E- Commerce Project',
     text: ' This is an E-Commerce project created using MERN stack. Frontend designed with React, Daisy-UI and Tailwind CSS while the backend designed with Node,Express and Mongo DB. State management is done by using redux-tool kit.Data fetching, and requests handled by loaders and actions of React-Router-Dom, Also this is optimized by using react-queries',
   },
-
+  
   {
     id: nanoid(),
     img:  '../projects/chat.jpg',
@@ -80,6 +92,14 @@ export const projects = [
     github: 'https://github.com/kusalwbkd/mern-admin-dashboard/',
     title: 'Admin-Dashboard',
     text: 'This is an Admin-dashboard designed by using MERN stack. Frontend designed with React, Daisy-UI and Tailwind CSS while the backend designed with Node,Express and Mongo DB. In here data fetching and requests are done by React-Router-Dom loaders are actions',
+  },
+  {
+    id: nanoid(),
+    img: '../projects/bk.jpg',
+    url: 'https://next-js-booking-app.onrender.com/',
+    github: 'https://github.com/kusalwbkd/Next-js-booking-app',
+    title: 'Booking-App',
+    text: 'This app is created using Next.js and Typescript. Frontend is designed by using React/Next.js shadcn and tailwind CSS,while Supabase is handling database hosting(Postgres database), also I used Prisma as a database tool and used Clerk for authentication and the state handling is done by zustand',
   },
   {
     id: nanoid(),
