@@ -18,7 +18,8 @@ export const skills = [
     id: nanoid(),
     title: 'HTML&CSS',
     icon: <FaHtml5 className='h-16 w-16 text-cyan-500' />,
-    text: 'Proficient in HTML and CSS, adeptly weaving visually captivating and responsive web experiences for seamless user interactions.'
+    text: 'Proficient in HTML and CSS, adeptly weaving visually captivating and responsive web experiences for seamless user interactions.',
+   
   },
   {
     id: nanoid(),
@@ -48,7 +49,7 @@ export const skills = [
     id: nanoid(),
     title: 'Express JS',
     icon: <SiExpress className='h-16 w-16 text-cyan-500' />,
-    text: 'Proficient in Express.js, simplifying API development, routing, and server-side logic with elegance and precision..',
+    text: 'Proficient in Express.js, simplifying API development, routing, and server-side logic with elegance and precision.',
   },
   {
     id: nanoid(),
@@ -62,75 +63,128 @@ export const skills = [
     icon: <SiTypescript className='h-16 w-16 text-cyan-500' />,
     text: 'Proficient in TypeScript, I excel at building robust and type-safe applications. Leveraging TypeScript’s static type checking.',
   },
+  {
+    id: nanoid(),
+    title: "React Native",
+    icon: <TbBrandReactNative className='h-16 w-16 text-cyan-500' />,
+    text: "Proficient in React Native, I specialize in building cross-platform mobile applications with a seamless and native-like user experience. Leveraging React Native’s component-based architecture, I create performant and scalable mobile apps with efficient state management and smooth UI interactions."
+  }
+  
   
 ];
-
-export const projects = [
-
-  {
-    id: nanoid(),
-    img: '../projects/ecom.jpg',
-    url: 'https://mern-ecommerce-siten.onrender.com/',
-    github: 'https://github.com/kusalwbkd/MERN-Ecommerce-site',
-    title: 'E- Commerce Project',
-    text: ' This is an E-Commerce project created using MERN stack. Frontend designed with React, Daisy-UI and Tailwind CSS while the backend designed with Node,Express and Mongo DB. State management is done by using redux-tool kit.Data fetching, and requests handled by loaders and actions of React-Router-Dom, Also this is optimized by using react-queries',
-  },
-  
-  {
-    id: nanoid(),
-    img:  '../projects/chat.jpg',
-    url: 'https://mern-chat-application-u5gh.onrender.com',
-    github: 'https://github.com/kusalwbkd/mern-chat-application',
-    title: 'Chat-App',
-    text: 'This is a chat-app designed by using MERN stack.Frontend designed with React, Daisy-UI and Tailwind CSS while the backend designed with Node,Express and Mongo DB. State management is done by Context-API s and the real time messanging functionality is handled with Socket.io. Data fetching and requests are handled by react-hooks',
-  },
  
+
+export const projects=[
   {
-    id: nanoid(),
-    img: '../projects/admin-dashboard.jpg',
-    url: 'https://mern-admin-dashboard-9alt.onrender.com',
-    github: 'https://github.com/kusalwbkd/mern-admin-dashboard/',
-    title: 'Admin-Dashboard',
-    text: 'This is an Admin-dashboard designed by using MERN stack. Frontend designed with React, Daisy-UI and Tailwind CSS while the backend designed with Node,Express and Mongo DB. In here data fetching and requests are done by React-Router-Dom loaders are actions',
+    "id": "nanoid()",
+    "img": "../projects/ecom.jpg",
+    "url": "https://mern-ecommerce-siten.onrender.com/",
+    "github": "https://github.com/kusalwbkd/MERN-Ecommerce-site",
+    "title": "E-Commerce Platform",
+    "text": "A full-stack E-Commerce platform built with MERN stack, featuring a modern UI, seamless shopping experience, and optimized backend.",
+    "highlights": [
+      "🚀 Built with React, Tailwind CSS, and Daisy-UI",
+      "🛍 Smooth shopping experience with product filtering, cart, and checkout",
+      "⚡ State management using Redux Toolkit & Context API",
+      "🔗 Optimized data fetching with React-Router-Dom loaders & actions",
+      "💾 Scalable backend with Node.js, Express, and MongoDB",
+      "🔒 Secure authentication & user management"
+    ]
   },
   {
-    id: nanoid(),
-    img: '../projects/bk.jpg',
-    url: 'https://next-js-booking-app.onrender.com/',
-    github: 'https://github.com/kusalwbkd/Next-js-booking-app',
-    title: 'Booking-App',
-    text: 'This app is created using Next.js and Typescript. Frontend is designed by using React/Next.js shadcn and tailwind CSS,while Supabase is handling database hosting(Postgres database), also I used Prisma as a database tool and used Clerk for authentication and the state handling is done by zustand',
+    "id": "nanoid()",
+    "img": "../projects/chat.jpg",
+    "url": "https://mern-chat-application-u5gh.onrender.com",
+    "github": "https://github.com/kusalwbkd/mern-chat-application",
+    "title": "Real-time Chat App",
+    "text": "A real-time chat application with private and group messaging, built using MERN stack and powered by Socket.io.",
+    "highlights": [
+      "💬 Real-time messaging powered by Socket.io",
+      "🎨 UI built with React, Tailwind CSS, and Daisy-UI",
+      "⚡ State management handled by Context API",
+      "🔗 Fast and efficient API calls using React hooks",
+      "🔒 Secure authentication & user sessions",
+      "📡 Backend optimized with Node.js, Express, and MongoDB"
+    ]
   },
   {
-    id: nanoid(),
-    img: '../projects/social.jpg',
-    url: 'https://mern-social-media-b3i9.onrender.com',
-    github: 'https://github.com/kusalwbkd/mern-social-media/',
-    title: 'Social media Site',
-    text: 'This is an Social-media app project created using MERN stack. Frontend designed with React, Daisy-UI and Tailwind CSS while the backend designed with Node,Express and Mongo DB. State management is done by using redux-tool kit.Data fetching, and requests handled by loaders and actions of React-Router-Dom',
+    "id": "nanoid()",
+    "img": "../projects/admin-dashboard.jpg",
+    "url": "https://mern-admin-dashboard-9alt.onrender.com/",
+    "github": "https://github.com/kusalwbkd/mern-admin-dashboard/",
+    "title": "Admin Dashboard",
+    "text": "A feature-rich admin dashboard with analytics, user management, and role-based access control, built using MERN stack.",
+    "highlights": [
+      "📊 Dynamic dashboard with user & product analytics",
+      "🔗 Data fetching with React-Router-Dom loaders & actions",
+      "🎨 Modern UI built with React, Tailwind CSS, and Daisy-UI",
+      "⚡ Backend API designed with Node.js & Express",
+      "💾 Data storage & management using MongoDB",
+      "🔐 Secure authentication and role-based access control"
+    ]
   },
   {
-    id: nanoid(),
-    img: '../projects/project-app.jpg',
-    url: 'https://mern-project-management-app-tbdp.onrender.com',
-    github: 'https://github.com/kusalwbkd/Mern-project-management-app',
-    title: 'Project management app',
-    text: 'This is a project-management-app designed by using MERN stack, frontend designed with React and styled components, backend designed with Express ,Node and Mongo DB. In here both data fetching and state management are handled by redux-tool kit. Also all the frontend filtering, sorting ,searching and paginations are done by using react',
+    "id": "nanoid()",
+    "img": "../projects/social.jpg",
+    "url": "https://social-media-site-v2.onrender.com/",
+    "github": "https://github.com/kusalwbkd/social-media-site-v2",
+    "title": "Social Media Platform",
+    "text": "A full-stack social media application where users can post, like, comment, and follow other users.",
+    "highlights": [
+      "📢 User authentication & profile management",
+      "📝 Create, like, and comment on posts",
+      "⚡ State management using Redux Toolkit",
+      "📡 Backend built with Node.js, Express, and MongoDB",
+      "📌 Real-time notifications for user interactions",
+      "🔗 API calls optimized for fast performance"
+    ]
   },
   {
-    id: nanoid(),
-    img: '../projects/real-state.jpg',
-    url: 'https://reaact-app-real-estate.netlify.app',
-    github: 'https://github.com/kusalwbkd/react-real-estate',
-    title: 'React- real estate site',
-    text: 'This is a real estate site designed with react. This is a frontend app and data are located locally. state managemnt is done by context API s and all frontend filtering,sorting done by react',
+    "id": "nanoid()",
+    "img": "../projects/journal.png",
+    "url": "https://nextjs-journal-ip4141zny-kusalwbkds-projects.vercel.app/",
+    "github": "https://github.com/kusalwbkd/nextjs-journal",
+    "title": "Journal App",
+    "text": "A Next.js-powered journal app where users can record their thoughts and memories securely.",
+    "highlights": [
+      "📖 Built with Next.js for server-side rendering & SEO",
+      "🔐 User authentication with Clerk",
+      "💾 Database integration using NeonDB & Prisma ORM",
+      "📝 Simple, intuitive UI for writing and managing journal entries",
+      "⚡ Optimized performance with React & Next.js caching"
+    ]
   },
   {
-    id: nanoid(),
-    img: '../projects/js-store.jpg',
-    url: 'https://javascript-store-app.netlify.app',
-    github: 'https://github.com/kusalwbkd/javascript-store',
-    title: 'Store app',
-    text: 'This is a store app designed by using html,css and JavaScript',
+    "id": "nanoid()",
+    "img": "../projects/rn.jpg",
+    "url": "https://drive.google.com/file/d/1YSfXsFCF-sVgGlwtLH63fbZdnAIsju8I/view?usp=drive_link",
+    "github": "https://github.com/kusalwbkd/react-native-ecommerce",
+    "title": "React Native E-Commerce App",
+    "text": "A mobile e-commerce app with product search, filtering, cart management, and checkout.",
+    "highlights": [
+      "📱 Developed with Expo & React Native",
+      "🛍 E-Commerce features: product search, sorting, and cart",
+      "⚡ State management using Redux Toolkit",
+      "📡 Backend built with Node.js, Express, and MongoDB",
+      "🔗 API calls optimized for smooth performance",
+      "🚀 Mobile-first UI with optimized user experience"
+    ]
   },
-];
+  {
+    "id": "nanoid()",
+    "img": "../projects/weather.png",
+    "url": "https://sage-granita-a807e0.netlify.app/",
+    "github": "https://github.com/kusalwbkd/weather-app-v2",
+    "title": "Weather App",
+    "text": "A real-time weather app that fetches data from OpenWeather API and displays current conditions with a modern UI.",
+    "highlights": [
+      "☀️ Real-time weather updates using OpenWeather API",
+      "⚡ Optimized data fetching with React Query",
+      "🎨 UI designed with ShadCN UI & Tailwind CSS",
+      "🔍 Search and filter functionality",
+      "📝 Custom hooks for cleaner and reusable code",
+      "📌 TypeScript integration for better type safety"
+    ]
+  }
+]
+
