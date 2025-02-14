@@ -1,7 +1,7 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaNodeJs, } from 'react-icons/fa';
 import { DiMongodb } from "react-icons/di";
-import { SiExpress, SiTypescript } from "react-icons/si";
+import { SiExpress, SiPostgresql, SiTypescript } from "react-icons/si";
 import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
 import { DiNodejs } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
@@ -18,59 +18,55 @@ export const skills = [
     id: nanoid(),
     title: 'HTML&CSS',
     icon: <FaHtml5 className='h-16 w-16 text-cyan-500' />,
-    text: 'Proficient in HTML and CSS, adeptly weaving visually captivating and responsive web experiences for seamless user interactions.',
    
   },
   {
     id: nanoid(),
     title: 'Javascript',
     icon: <IoLogoJavascript className='h-16 w-16 text-cyan-500' />,
-    text: 'Proficient in JavaScript, adeptly crafting interactive and dynamic web applications that prioritize seamless user interactions and robust functionality',
   },
   {
     id: nanoid(),
     title: 'React',
     icon: <FaReact className='h-16 w-16 text-cyan-500' />,
-    text: 'Masterful in React, architecting efficient and interactive front-end applications with an unwavering focus on component-based design.',
   },
   {
     id: nanoid(),
     title: 'MongoDB',
     icon: <DiMongodb className='h-16 w-16 text-cyan-500' />,
-    text: 'Proficient in MongoDB, adeptly managing data in a flexible, JSON-like format for seamless storage and retrieval in web applications.',
   },
   {
     id: nanoid(),
     title: 'Node Js',
     icon: <DiNodejs className='h-16 w-16 text-cyan-500' />,
-    text: 'Masterful in Node.js, orchestrating scalable and efficient backend services for web applications.',
   },
   {
     id: nanoid(),
     title: 'Express JS',
     icon: <SiExpress className='h-16 w-16 text-cyan-500' />,
-    text: 'Proficient in Express.js, simplifying API development, routing, and server-side logic with elegance and precision.',
   },
   {
     id: nanoid(),
     title: 'Next.js',
     icon: <TbBrandNextjs className='h-16 w-16 text-cyan-500' />,
-    text: 'Proficient in Next.js, I specialize in building server-rendered React applications. With Next.js, I seamlessly combine client-side and server-side rendering, optimizing performance and SEO. My focus lies in creating modular, scalable components for efficient front-end development'
   },
   {
     id: nanoid(),
     title: 'TypeScript',
     icon: <SiTypescript className='h-16 w-16 text-cyan-500' />,
-    text: 'Proficient in TypeScript, I excel at building robust and type-safe applications. Leveraging TypeScript’s static type checking.',
   },
   {
     id: nanoid(),
     title: "React Native",
     icon: <TbBrandReactNative className='h-16 w-16 text-cyan-500' />,
-    text: "Proficient in React Native, I specialize in building cross-platform mobile applications with a seamless and native-like user experience. Leveraging React Native’s component-based architecture, I create performant and scalable mobile apps with efficient state management and smooth UI interactions."
+  },
+  {
+    id: nanoid(),
+    title: "React Native",
+    icon: <SiPostgresql className='h-16 w-16 text-cyan-500' />,
   }
   
-  
+   
 ];
  
 
@@ -145,15 +141,16 @@ export const projects=[
     "url": "https://nextjs-journal-ip4141zny-kusalwbkds-projects.vercel.app/",
     "github": "https://github.com/kusalwbkd/nextjs-journal",
     "title": "Journal App",
-    "text": "A Next.js-powered journal app where users can record their thoughts and memories securely.",
+    "text": "A Next.js-powered journal app where users can securely record their thoughts and memories, with full database integration using PostgreSQL.",
     "highlights": [
       "📖 Built with Next.js for server-side rendering & SEO",
       "🔐 User authentication with Clerk",
-      "💾 Database integration using NeonDB & Prisma ORM",
+      "💾 Database integration using NeonDB (PostgreSQL) & Prisma ORM",
       "📝 Simple, intuitive UI for writing and managing journal entries",
       "⚡ Optimized performance with React & Next.js caching"
     ]
-  },
+  }
+  ,
   {
     "id": "nanoid()",
     "img": "../projects/rn.jpg",
