@@ -173,15 +173,19 @@ export const projects=[
     "url": "https://sage-granita-a807e0.netlify.app/",
     "github": "https://github.com/kusalwbkd/weather-app-v2",
     "title": "Weather App",
-    "text": "A real-time weather app that fetches data from OpenWeather API and displays current conditions with a modern UI.",
+    "text": "A real-time weather app that fetches data from OpenWeather API and displays current conditions, a five-day forecast, and detailed weather analytics with a modern UI.",
     "highlights": [
       "☀️ Real-time weather updates using OpenWeather API",
+      "🌧️ Five-day weather forecast with detailed insights",
+      "📊 Temperature analytics to track changes over time",
+      "🌅 Weather details including sunrise, sunset, wind direction, and pressure",
       "⚡ Optimized data fetching with React Query",
       "🎨 UI designed with ShadCN UI & Tailwind CSS",
       "🔍 Search and filter functionality",
       "📝 Custom hooks for cleaner and reusable code",
       "📌 TypeScript integration for better type safety"
     ]
-  }
+}
+
 ]
 
